@@ -85,7 +85,7 @@ jobs:
     
         - name: Terraform Plan and Apply
           id: terraform
-          uses: wernerstrydom/terraform-action@v1
+          uses: phaka/terraform-action@v1-beta
           with:
             command: apply
             workspace: ci-${{ github.repository_owner_id }}-${{ github.repository_id }}-${{ github.event.pull_request.number }}
@@ -131,7 +131,7 @@ jobs:
           uses: actions/checkout@v2
     
         - name: Terraform Destroy
-          uses: wernerstrydom/terraform-action@v1
+          uses: phaka/terraform-action@v1-beta
           with:
             command: destroy
             workspace: ci-${{ github.repository_owner_id }}-${{ github.repository_id }}-${{ github.event.pull_request.number }}
