@@ -10,7 +10,7 @@ This workflow is based on the [Typescript Action](https://github.com/actions/typ
 
 ### Pre-requisites
 
-Create a workflow `.yml` file in your repositories `.github/workflows` directory. An [example workflow](#example) is available below.
+Create a workflow `.yml` file in your repositories `.github/workflows` directory. An [example workflow](#examples) is available below.
 
 ### Inputs
 
